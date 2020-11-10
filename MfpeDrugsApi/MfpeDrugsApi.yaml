@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: mfpedrugsapirepos
-        image: samplecr1.azurecr.io/mfpedrugsapirepos:latest
+        image: samplecr.azurecr.io/mfpedrugsapirepos:latest
         ports:
         - containerPort: 8080
       imagePullSecrets:
